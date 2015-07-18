@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LIKAIPENG-PC</Machine>
+    <WindowsUser>likp</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>ef83422f-13fe-4c14-9282-1b878aeb374b</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\bin\Debug\MidTerm.exe">
+      <PackagePath>MidTerm.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\1.png">
+      <PackagePath>Assets\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\2.png">
+      <PackagePath>Assets\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\3.png">
+      <PackagePath>Assets\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\4.png">
+      <PackagePath>Assets\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\5.png">
+      <PackagePath>Assets\5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\6.png">
+      <PackagePath>Assets\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\7.png">
+      <PackagePath>Assets\7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\8.png">
+      <PackagePath>Assets\8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\9.png">
+      <PackagePath>Assets\9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\b.png">
+      <PackagePath>Assets\b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\back2.png">
+      <PackagePath>Assets\back2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\camera.png">
+      <PackagePath>Assets\camera.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\fourthfish.png">
+      <PackagePath>Assets\fourthfish.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\green.png">
+      <PackagePath>Assets\green.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\name.png">
+      <PackagePath>Assets\name.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\prettyfish.png">
+      <PackagePath>Assets\prettyfish.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\purplefish.png">
+      <PackagePath>Assets\purplefish.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\redtips.png">
+      <PackagePath>Assets\redtips.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\thirdfish.png">
+      <PackagePath>Assets\thirdfish.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\tip.png">
+      <PackagePath>Assets\tip.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\tips.png">
+      <PackagePath>Assets\tips.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\top.png">
+      <PackagePath>Assets\top.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\top1.png">
+      <PackagePath>Assets\top1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\top2.png">
+      <PackagePath>Assets\top2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\up.png">
+      <PackagePath>Assets\up.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\back.jpg">
+      <PackagePath>Assets\back.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\blue.jpg">
+      <PackagePath>Assets\blue.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\bluesecond.jpg">
+      <PackagePath>Assets\bluesecond.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\buttonlogo.jpg">
+      <PackagePath>Assets\buttonlogo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\cute.jpg">
+      <PackagePath>Assets\cute.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\fifthfish.jpg">
+      <PackagePath>Assets\fifthfish.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\firstfish.jpg">
+      <PackagePath>Assets\firstfish.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\fish.jpg">
+      <PackagePath>Assets\fish.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\hua.jpg">
+      <PackagePath>Assets\hua.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\img6.jpg">
+      <PackagePath>Assets\img6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\night.jpg">
+      <PackagePath>Assets\night.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\redfish.jpg">
+      <PackagePath>Assets\redfish.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\secondfish.jpg">
+      <PackagePath>Assets\secondfish.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\shu.jpg">
+      <PackagePath>Assets\shu.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\Square310x310Logo.scale-100.jpg">
+      <PackagePath>Assets\Square310x310Logo.scale-100.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\tiao.jpg">
+      <PackagePath>Assets\tiao.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\Assets\whiteblue.jpg">
+      <PackagePath>Assets\whiteblue.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\bin\Debug\BasicPage1.xbf">
+      <PackagePath>BasicPage1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\bin\Debug\main.xbf">
+      <PackagePath>main.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\bin\Debug\use1.xbf">
+      <PackagePath>use1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\bin\Debug\MidTerm.xr.xml">
+      <PackagePath>MidTerm.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\likp\Desktop\16：50\16：35\MidTerm\MidTerm\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,118 @@
+﻿<Page
+    x:Class="MidTerm.main"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MidTerm"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="0.3*"></RowDefinition>
+            <RowDefinition Height="4*"></RowDefinition>
+            <RowDefinition Height="4*"></RowDefinition>
+            <RowDefinition Height="0.3*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="0.3*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.8*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="0.2*"></ColumnDefinition>
+            <ColumnDefinition Width="2.5*"></ColumnDefinition>
+            <ColumnDefinition Width="0.8*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+
+
+        <GridView x:Name="gridView" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" Grid.RowSpan="2" HorizontalAlignment="Left" Height="440" VerticalAlignment="Top" Width="790">
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <Border Background="DarkViolet">
+                        <StackPanel Height="430" Orientation  ="Horizontal">
+                            <Image Height="400" Source ="{Binding ImageSource}"/>
+                            <TextBlock>
+                                <Run Text="  " FontSize="35"/>
+                                <LineBreak/>
+                                <Run Text=" 还 " FontSize="35"/>
+                                <LineBreak/>
+        	                    <Run Text=" 可 " FontSize="35"/>
+                                <LineBreak/>
+        	                    <Run Text=" 再 " FontSize="35"/>
+                                <LineBreak/>
+                                <Run Text=" 导 " FontSize="35"/>
+                                <LineBreak/>
+        	                    <Run Text=" 入 " FontSize="35"/>
+                                <LineBreak/>
+        	                    <Run Text=" 几 " FontSize="35"/>
+                                <LineBreak/>
+        	                    <Run Text=" 张 " FontSize="35"/>
+                            </TextBlock>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+        <Button x:ConnectionId='1' Grid.Row="1" Grid.Column="1" Content="立即拍照"  FontSize="28"                      Margin="-3,0" Width="271">
+        <Button.Background>
+            <ImageBrush ImageSource="Assets/redtips.png" Stretch="Fill"/>
+        </Button.Background>
+        </Button>
+        <Button x:ConnectionId='2' Grid.Row="6" Grid.Column="1" Content="美化图片" FontSize="28" Margin="-3,0" Width="271"                       >
+        <Button.Background>
+            <ImageBrush ImageSource="Assets/redtips.png" Stretch="Fill"/>
+        </Button.Background>
+        </Button>
+        <Button x:ConnectionId='3' Grid.Row="6" Grid.Column="3" Content="删除图片" Width="271" Margin="-3,0" FontSize="28"                       >
+        <Button.Background>
+            <ImageBrush ImageSource="Assets/redtips.png" Stretch="Fill"/>
+        </Button.Background>
+        </Button>
+    <Button x:ConnectionId='4' Grid.Row="6" Grid.Column="2" Content="保存这张" Margin="-3,0" Width="271" FontSize="28"                       >
+        <Button.Background>
+            <ImageBrush ImageSource="Assets/redtips.png" Stretch="Fill"/>
+        </Button.Background>
+        </Button>
+        <Button x:ConnectionId='5' Grid.Row="1" Grid.Column="3" Content="本地导入" FontSize="28"                        Margin="-3,0" Width="271">
+        <Button.Background>
+            <ImageBrush ImageSource="Assets/redtips.png" Stretch="Fill"/>
+        </Button.Background>
+        </Button>
+        <TextBox x:Name="imgname" Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="输入保存的文件名" VerticalAlignment="Top" Width="525" Height="45" Margin="0,5,0,0"/>
+        <Button x:ConnectionId='6' Grid.Row="8" Grid.Column="3" Width="271" Margin="-3,0" FontSize="28" x:Name="save" Content="完成"                   >
+        <Button.Background>
+            <ImageBrush ImageSource="Assets/b.png" Stretch="Fill"/>
+        </Button.Background>
+        </Button>
+        <Image Source="Assets/tip.png" Grid.Row="1" Grid.Column="5" Grid.RowSpan="3" Height="470" />
+        <Image Source="Assets/redtips.png" Grid.Row="4" Grid.Column="5" Grid.RowSpan="3" Height="800"/>
+        <Button x:ConnectionId='7' Grid.Row="8" Grid.Column="5" Width="338" Margin="-3,-3,-3,3" FontSize="28" x:Name="return1" Content="返回主页"                      >
+            <Button.Background>
+                <ImageBrush ImageSource="Assets/b.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="2" Content="Gridview" FontSize="28" Margin="-3,0" Width="271">
+        <Button.Background>
+            <ImageBrush ImageSource="Assets/b.png" Stretch="Fill"/>
+        </Button.Background>
+        </Button>
+        <TextBlock x:Name="text1" Visibility="Visible" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="34,41,0,0" Height="218" Width="264" FontSize="36" Grid.Row="4" Grid.Column="5" Foreground="#FF020308" Grid.RowSpan="3">
+        	<Run Text="在Gridview里面"/>
+        	<Run Text="【"/>
+        	<Run Foreground="#FF070208" Text="鼠标点击"/>
+        	<Run Foreground="#FF070208" Text="】"/>
+        	<Run Text="希望"/>
+        	<Run Text="选中的众多图片中的其中一张进行处理"/>
+        	<Run Text="~"/>
+        </TextBlock>
+    </Grid>
+</Page>
+

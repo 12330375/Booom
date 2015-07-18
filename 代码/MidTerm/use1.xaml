@@ -1,0 +1,92 @@
+﻿<Page
+    x:Class="MidTerm.use1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MidTerm"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="0.3*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Image  x:Name ="one" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2"  Grid.ColumnSpan="2" Height="700" Visibility="Visible" Source="Assets/back2.png" />
+        <Image  x:Name ="second" Grid.Column="1" Grid.Row="1"  Grid.RowSpan="2"  Grid.ColumnSpan="2" Height="530"  Visibility="Collapsed" Source="Assets/back.jpg"/>
+
+        <Image  x:Name ="right" Grid.Column="2" Grid.Row="1"  Grid.RowSpan="2" Height="530" Visibility="Collapsed" Source="Assets/night.jpg"/>
+        <Image  x:Name ="right1" Visibility="Visible" Grid.Column="3" Grid.Row="1"  Height="300"  Source="Assets/fifthfish.jpg"/>
+        <Image  x:Name ="right2" Visibility="Visible" Grid.Column="3" Grid.Row="2"  Height="300"  Source="Assets/camera.png"/>
+        <Image  x:Name ="right3" Visibility="Collapsed" Grid.Column="3" Grid.Row="1"  Height="300"  Source="Assets/camera.png"/>
+        <Image  x:Name ="right4" Visibility="Collapsed" Grid.Column="3" Grid.Row="2"  Height="300"  Source="Assets/hua.jpg"/>
+        <Button Grid.Row="4" Grid.Column="1" Content="    产品概要" Click="button1" Width="371" HorizontalAlignment="Right" FontSize="50" FontFamily="DengXian" Foreground="#FFB8034D" Margin="0,2,2,2" >
+            <Button.Background>
+                <ImageBrush ImageSource="Assets/buttonlogo.jpg" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="2" Content="    功能简介" Click="button2"  Width="371" HorizontalAlignment="Right" FontSize="50" FontFamily="DengXian" Foreground="#FFB8034D" Margin="0,2,2,2" >
+            <Button.Background>
+                <ImageBrush ImageSource="Assets/buttonlogo.jpg" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="3" Content="    返回上级" Click="button3"  Width="371" HorizontalAlignment="Right" FontSize="50" FontFamily="DengXian" Foreground="#FFB8034D" Margin="0,2,2,2" >
+            <Button.Background>
+                <ImageBrush ImageSource="Assets/buttonlogo.jpg" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+        <TextBlock x:Name="text1" Visibility="Visible" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="82,25,0,0" Height="428" Width="542" FontSize="50" Grid.ColumnSpan="2" Grid.Row="1" Grid.RowSpan="2" Grid.Column="1" Foreground="#FF243E95">
+        	<Run Text=" "/>
+        	<Run Text="="/>
+        	<Run Text="V= 这是"/>
+        	<Run Text="一个"/>
+        	<Run Text="图片处理器的win8应用，有"/>
+        	<Run Text="了它"/>
+        	<Run Text="，我们可以对屏幕摄像头的照片和上传的图片进行酷炫神奇的处理得到美化后的图片噢"/>
+        	<Run Text="。"/>
+        	<LineBreak/>
+        	<Run Text="好厉害"/>
+        	<Run Text="~"/>
+        </TextBlock>
+        <TextBlock x:Name="text2" Visibility="Collapsed" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="82,52,0,0" Height="401" Width="602" FontSize="40" Grid.ColumnSpan="2" Grid.Row="1" Grid.RowSpan="2" Grid.Column="1" Foreground="#FF03649B">
+        	<Run Text="选定摄像头"/>
+        	<Run Text="拍照或上传"/>
+        	<Run Text="的"/>
+        	<Run Text="图片后，我们可以进行多种图片处理"/>
+        	<Run Text="~"/>
+        	<LineBreak/>
+        	<Run Text="如对比度调节，亮度调节"/>
+        	<Run Text="，霓虹效果，"/>
+        	<Run Text="浮雕效果，黑白效果，底片效果，"/>
+        	<Run Text="去噪效果，灰度效果，木刻效果"/>
+        	<Run Text="噢"/>
+        	<Run Text="."/>
+        	<Run Text=" "/>
+        	<Run Text="=。="/>
+        	<LineBreak/>
+        	<Run Text="还可以"/>
+        	<Run Text="保存和分享"/>
+        	<LineBreak/>
+        	<Run Text="处理后的图片"/>
+        	<Run Text="呢"/>
+        	<Run Text="."/>
+        	<LineBreak/>
+
+        </TextBlock>
+
+    </Grid>
+
+
+</Page>
